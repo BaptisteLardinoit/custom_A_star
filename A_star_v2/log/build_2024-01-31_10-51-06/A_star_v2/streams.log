@@ -1,0 +1,28 @@
+[0.062s] Invoking command in '/home/baptiste/Experiment/A_star_v2/build/A_star_v2': /usr/bin/cmake /home/baptiste/Experiment/A_star_v2 -DCMAKE_INSTALL_PREFIX=/home/baptiste/Experiment/A_star_v2/install/A_star_v2
+[0.109s] -- The C compiler identification is GNU 11.4.0
+[0.158s] -- The CXX compiler identification is GNU 11.4.0
+[0.164s] -- Detecting C compiler ABI info
+[0.223s] -- Detecting C compiler ABI info - done
+[0.230s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.230s] -- Detecting C compile features
+[0.230s] -- Detecting C compile features - done
+[0.233s] -- Detecting CXX compiler ABI info
+[0.304s] -- Detecting CXX compiler ABI info - done
+[0.312s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.312s] -- Detecting CXX compile features
+[0.313s] -- Detecting CXX compile features - done
+[0.313s] -- Configuring done
+[0.316s] -- Generating done
+[0.316s] -- Build files have been written to: /home/baptiste/Experiment/A_star_v2/build/A_star_v2
+[0.319s] Invoked command in '/home/baptiste/Experiment/A_star_v2/build/A_star_v2' returned '0': /usr/bin/cmake /home/baptiste/Experiment/A_star_v2 -DCMAKE_INSTALL_PREFIX=/home/baptiste/Experiment/A_star_v2/install/A_star_v2
+[0.320s] Invoking command in '/home/baptiste/Experiment/A_star_v2/build/A_star_v2': /usr/bin/cmake --build /home/baptiste/Experiment/A_star_v2/build/A_star_v2 -- -j12 -l12
+[0.362s] [ 50%] [32mBuilding CXX object CMakeFiles/a_star_v2.dir/src/a_star_v2.cpp.o[0m
+[0.435s] In file included from [01m[K/home/baptiste/Experiment/A_star_v2/src/a_star_v2.cpp:6[m[K:
+[0.435s] [01m[K/home/baptiste/Experiment/A_star_v2/include/grid_v2.h:7:9:[m[K [01;31m[Kfatal error: [m[Knode_V2.h: No such file or directory
+[0.435s]     7 | #include[01;31m[K"node_V2.h"[m[K
+[0.435s]       |         [01;31m[K^~~~~~~~~~~[m[K
+[0.435s] compilation terminated.
+[0.437s] gmake[2]: *** [CMakeFiles/a_star_v2.dir/build.make:76: CMakeFiles/a_star_v2.dir/src/a_star_v2.cpp.o] Error 1
+[0.438s] gmake[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/a_star_v2.dir/all] Error 2
+[0.438s] gmake: *** [Makefile:91: all] Error 2
+[0.440s] Invoked command in '/home/baptiste/Experiment/A_star_v2/build/A_star_v2' returned '2': /usr/bin/cmake --build /home/baptiste/Experiment/A_star_v2/build/A_star_v2 -- -j12 -l12

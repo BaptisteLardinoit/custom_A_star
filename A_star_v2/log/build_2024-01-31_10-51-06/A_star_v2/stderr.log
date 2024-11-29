@@ -1,0 +1,8 @@
+In file included from [01m[K/home/baptiste/Experiment/A_star_v2/src/a_star_v2.cpp:6[m[K:
+[01m[K/home/baptiste/Experiment/A_star_v2/include/grid_v2.h:7:9:[m[K [01;31m[Kfatal error: [m[Knode_V2.h: No such file or directory
+    7 | #include[01;31m[K"node_V2.h"[m[K
+      |         [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/a_star_v2.dir/build.make:76: CMakeFiles/a_star_v2.dir/src/a_star_v2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/a_star_v2.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2

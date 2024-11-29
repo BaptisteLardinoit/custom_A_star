@@ -1,0 +1,24 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/baptiste/Experiment/A_star_v2/build/A_star_v2
+[ 50%] [32mBuilding CXX object CMakeFiles/a_star_v2.dir/src/a_star_v2.cpp.o[0m
+In file included from [01m[K/home/baptiste/Experiment/A_star_v2/src/a_star_v2.cpp:6[m[K:
+[01m[K/home/baptiste/Experiment/A_star_v2/include/grid_v2.h:7:9:[m[K [01;31m[Kfatal error: [m[Knode_V2.h: No such file or directory
+    7 | #include[01;31m[K"node_V2.h"[m[K
+      |         [01;31m[K^~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/a_star_v2.dir/build.make:76: CMakeFiles/a_star_v2.dir/src/a_star_v2.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:84: CMakeFiles/a_star_v2.dir/all] Error 2
+gmake: *** [Makefile:91: all] Error 2
